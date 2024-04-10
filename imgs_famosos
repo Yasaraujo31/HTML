@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script>
+           $nome = prompt("Qual seu nome... ?")
+           $sexo = prompt("Qual é seu sexo? (M) OU (F)")
+           document.write("O nome digitado foi:" + $nome)
+           document.writeln("<br>Sexo = " + $sexo)
+
+           if(($sexo == "M") || ($sexo == "m"))
+           {
+             document.write("Masculino")
+
+           }
+           else
+           {
+             document.write("Feminino")
+        
+           }
+           $idade= prompt("digite sua idade: ")
+           if($idade < 18)
+           {
+             document.write("<br> Menor de idade")
+
+           }
+           else
+           {
+                document.write("<br> Maior de idade")
+
+           }
+           document.write(" <center> ")
+           document.write("<font color='red' size='6'> Senai/Sumaré </font>" )
+           document.write(" <br> ")
+           document.write("<img src='yasmin.jfif' width='40%'> ")  
+           document.write(" <br> ")        
+          
+
+        </script>
+</head>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <font color="red" size="7">
+             tabelas - parte 1 
+        </font>
+  <br> <br>
+    <table border="1"  >
+        <tr align = "center">
+           <td>linha 1, coluna 1 </td>
+           <td>Linha 1, coluna 2 </td>
+           <td>Linha 1, coluna 3 </td>
+        </tr>
+         <tr>
+             <td>linha 2, coluna 1 </td>
+           <td>Linha 2, coluna 2 </td>
+           <td>Linha 2, coluna 3 </td>
+         </tr>
+    </table>
+    
+    <br> <br>
+    <table border="1" width="600">
+        <tr align="center" bgcolor="#B0C4DE">
+            <td width="300"> <B> NOME </B></td>
+            <td width="150"> <B> IDADE </B></td>
+            <td width="150"> <B> foto </B></td>
+        </tr>
+        <tr  align="center">
+          <td> Yasmin </td>
+          <td> 17 </td>
+          <td> <a href="https://github.com/Yasaraujo31"> <img src="yasmin.jfif" width="200"> </a></td> 
+          </tr> 
+         <tr  align="center">
+           <td> Mari Maria </td>
+           <td> 28 </td>
+           <td> <img src="Mari Maria.png" width="150"></td>
+         </tr> 
+         <tr align="center">
+          <td> Virginia </td>
+            <td> 25 </td>
+            <td> <img src="vírginia.jfif" width="150"> </td> 
+         <tr  align="center">
+            <td> Luísa Sonza </td>
+            <td> 25 </td> 
+            <td> <img src="luisa sonza.jfif" width="200"> </td> 
+            </tr> 
+        <tr  align="center">
+          <td> MC PH </td>
+          <td> 22 </td>
+          <td> <img src="mc ph.jfif" width="200"> </td> 
+         </tr>
+         <tr  align="center">
+          <td> Henrique </td>
+          <td> 30 </td>
+          <td> <img src="Henrique.jfif" width="200"> </td> 
+          </tr>
+          <tr  align="center">
+            <td> Cristiano </td>
+            <td> 32 </td>
+            <td> <img src="Cristiano.jfif" width="170"> </td> 
+            </tr> 
+    </table>  
+    </table>
+</center>
+</body>
+</html>
